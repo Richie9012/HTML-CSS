@@ -1,0 +1,35 @@
+h1{
+  font-family: 'Rubik Microbe', cursive;
+  text-align: center;
+}
+
+.R1{
+  margin: auto;
+}
+
+td{
+  background-color: black;
+  width: 100px;
+  height: 200px;
+  border: 2px solid white;
+}
+
+#C1{
+  background-color: #264653;
+}
+
+#C2{
+  background-color: #2a9d8f;
+}
+
+#C3{
+  background-color: #e9c46a;
+}
+
+#C4{
+  background-color: #f4a261;
+}
+
+#C5{
+  background-color: #e76f51;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="CSS_Basics.css">
+  </head>
+  <body>
+    <h1>HTML Forms - Labels - Selections</h1>
+    <form class="Form" action="index.html" method="get">
+      <h3>Select your sex</h3>
+      <!--This is a label for Male-->
+      <label for="Male">Male</label>
+      <!--This is a selection for Male-->
+      <input id="Male" type="radio" name="Sex" value="">
+
+      <!--This is a label for Female-->
+      <label for="Female">Female</label>
+      <!--This is a selection for Female-->
+      <input id="Female" type="radio" name="Sex" value=""><br><br>
+
+      <!--This is a label for First Name-->
+      <label for="FirstName">First Name:</label><br>
+      <!--This is an input for First Name-->
+      <input id="FN" type="text" name="FirstName" value="" placeholder="*Required" required><br>
+
+      <!--This is a label for Last Name-->
+      <label for="LastName">Last Name:</label><br>
+      <!--This is an input for Last Name-->
+      <input id="LN" type="text" name="LastName" value="" placeholder="*Required" required><br>
+
+      <!--This is a label for Email-->
+      <label for="Email">Email:</label><br>
+      <!--This is an input for Email-->
+      <input id="Email" type="email" name="Email" value="" placeholder="*Required" required><br>
+
+      <h3>Do you have a Credit Card?</h3>
+      <!--This is a selection-->
+      <select name="CreditCard">
+        <!--Yes selection-->
+        <option value="Yes">Yes</option>
+        <!--No selection-->
+        <option value="No">No</option>
+      </select><br>
+
+      <h3>Comments Box</h3>
+      <!--This is a Textarea-->
+      <textarea id="TextBox" name="Comments Box" rows="8" cols="80"></textarea><br><br>
+
+      <!--This is a submit button-->
+      <input id="Submit" type="submit" name="" value="Submit!">
+    </form>
+  </body>
+</html>

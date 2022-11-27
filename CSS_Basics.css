@@ -1,0 +1,37 @@
+body{
+  background-color: #264653;
+  color: white;
+  text-align: center;
+}
+
+.Form{
+  text-align: center;
+  background-color: #219ebc;
+}
+
+#FN{
+  text-align: center;
+  background-color: #8ecae6;
+}
+
+#LN{
+  text-align: center;
+  background-color: #8ecae6;
+}
+
+#Email{
+  text-align: center;
+  background-color: #8ecae6;
+}
+
+#TextBox{
+  text-align: center;
+  background-color: #8ecae6;
+}
+
+#Submit{
+  background-color: #e9c46a;
+  border-radius: 25px;
+  width: 80px;
+  height: 40px;
+}
